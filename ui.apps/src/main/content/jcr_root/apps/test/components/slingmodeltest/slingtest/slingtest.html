@@ -1,0 +1,12 @@
+
+<sly data-sly-test="${wcmmode.edit}">
+<div class="cq-placeholder" data-emptyText="Please configure Sling Model Component"></div>
+</sly>
+<div data-sly-use.hello="com.test.core.models.PosterModel"/>
+Image from Sling Model:
+
+<img src="${hello.fileReference}" alt="${hello.alt}" width="${properties.width}" height="${properties.height}"></img>
+
+
+
+
