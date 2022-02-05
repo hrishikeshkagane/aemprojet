@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
-    jcr:primaryType="sling:OsgiConfig"
-    akamaiAccessToken="akab-da5emssjk6mpd4u3-n4askiss7c2refbt"
-    akamaiClientSecret="j+jf7tMwMjkc2DDa1XCH5+hzbalnO4KYzBjEhigDPOE="
-    akamaiClientToken="akab-dq5cdr6ndrhpb2td-d63iick3grjceswx"
-    akamaiHost="akab-qjb3nc3zf4l6vpvd-xqqlkixlnopc7nno.purge.akamaiapis.net"
-    email_from="noreply@mercer.com"
-    email_to="mhr-sitesupport@mercer.com"/>
