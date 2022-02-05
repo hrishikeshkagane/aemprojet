@@ -1,0 +1,13 @@
+
+Hello ${reviewer},
+
+You have received a Group Assignment Review request with the information below:
+
+Username: ${Username}
+Groups to be assigned: ${groups}
+Op Co Name: ${opCoName}
+
+Please go to ${inboxUrl} to 'Approve' or 'Reject' the request.
+
+Thanks
+AEM Admin

@@ -1,0 +1,13 @@
+
+Hello ${reviewer},
+
+Group Access request with the information below has been rejected by Approver:
+
+Username: ${userId}
+Groups to be assigned: ${groups}
+Op Co Name: ${opCoName}
+
+
+
+Thanks
+AEM Admin
