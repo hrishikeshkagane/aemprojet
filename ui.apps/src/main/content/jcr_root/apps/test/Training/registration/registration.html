@@ -1,0 +1,30 @@
+<sly data-sly-test="${wcmmode.edit}">
+<div class="cq-placeholder" data-emptyText="Please configure Registartion Component"></div>
+</sly>
+ <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" 
+    data-sly-call="${clientlib.all @ categories='registartionclintlibs'}"/>
+<form action="${properties.linkURL}.html">
+  <div class="container">
+    <h1>${properties.registartion}</h1>
+    <p>${properties.desc}</p>
+    <hr>
+
+    <label for="email"><b>${properties.email}</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>${properties.password}</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>${properties.repeatpass}</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <button type="submit" class="registerbtn">${properties.button}</button>
+  </div>
+  <div data-sly-resource="/apps/test/Training/sightlydemo"/>
+  
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+</form>

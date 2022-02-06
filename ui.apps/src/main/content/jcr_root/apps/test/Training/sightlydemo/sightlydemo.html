@@ -1,0 +1,27 @@
+<sly data-sly-test="${wcmmode.edit}">
+<div class="cq-placeholder" data-emptyText="Please configure Sightrly Demo Component"></div>
+</sly>
+
+
+<sly data-sly-test="${properties.storename}">
+ <h1>${properties.storename}</h1>
+ </sly>
+
+ <sly data-sly-test="${properties.state =='maharasht' ||  properties.state =='goa'}">
+        you are in maharashtra
+ </sly>
+<sly data-sly-test="${properties.account}">
+ you have account
+ </sly>
+
+ address:
+ ${properties.address @context='html'}
+
+
+
+
+<p data-sly-use.test2="hello.js">${test2.heading}</p>
+
+
+
+
