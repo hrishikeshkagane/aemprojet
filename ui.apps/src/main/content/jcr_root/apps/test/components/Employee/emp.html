@@ -1,0 +1,21 @@
+<sly data-sly-test="${wcmmode.edit  || wcmmode.preview}">
+hi
+<div class="cq-placeholder" data-emptyText="Please configure Employee Component"></div>
+</sly>
+
+<sly data-sly-test="${properties.gender=='male'}">
+he  is male
+</sly>
+<sly data-sly-test="${properties.gender=='female'}">
+she  is female
+<h1>${properties.empname}</h1>
+</sly>
+<h2>${properties.empname ? ' he is employee of infosys' : 'he is not employee of infosys'}</h2>
+
+<h1 style="color:red">${properties.empname}</h1>
+${properties.salary}
+${properties.address}
+${properties.address1 @context='html'}
+${properties.gender}
+
+<img src="${properties.fileReference}" style="vertical-align: top;" width="200px" height="100px"/>
