@@ -1,0 +1,14 @@
+<sly data-sly-test="${wcmmode.edit  || wcmmode.preview}">
+<div class="cq-placeholder" data-emptyText="Please configure Employee Component"></div>
+</sly>
+
+<sly data-sly-test="${properties.gender=='male'}">
+<sly data-sly-include="test.html"/>
+</sly>
+
+<sly data-sly-test="${properties.gender=='employee'}">
+<sly data-sly-include="emp.html"/>
+</sly>
+<sly data-sly-test="${properties.gender=='female'}">
+<sly data-sly-include="female.html"/>
+
